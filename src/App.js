@@ -7,7 +7,7 @@ import Main from './components/Main';
 
 function App() {
 
-  const [activePage, setActivePage] = useState('Home');
+  const [activePage, setActivePage] = useState('My Work');
 
   const handleActivePage = (activePage) => {
     setActivePage(activePage);
